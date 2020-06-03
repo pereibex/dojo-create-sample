@@ -10,6 +10,7 @@
 		"test:functional": "dojo build --mode functional && dojo test --functional --config local",
 		"test:all": "dojo build --mode unit && dojo build --mode functional && dojo test --all --config local"
 	},
+	"main": "src/main.ts",
 	"dependencies": {
 		"@dojo/framework": "~7.0.0",
 		"@dojo/widgets": "~7.0.0",
